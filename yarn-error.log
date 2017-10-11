@@ -1,0 +1,123 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/Lsong/.rvm/gems/ruby-2.4.1/bin:/Users/Lsong/.rvm/gems/ruby-2.4.1@global/bin:/Users/Lsong/.rvm/rubies/ruby-2.4.1/bin:/Users/Lsong/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/Lsong/.rvm/gems/ruby-2.4.1/bin:/Users/Lsong/.rvm/gems/ruby-2.4.1@global/bin:/Users/Lsong/.rvm/rubies/ruby-2.4.1/bin:/Users/Lsong/.dotfiles/bin:/Users/Lsong/.rvm/bin
+
+Yarn version: 
+  0.24.5
+
+Node version: 
+  8.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "_from": "express-unpkg",
+    "_id": "express-unpkg@2.0.1",
+    "_inBundle": false,
+    "_integrity": "sha1-heagz7++zZRt4bDrpBgICd98X0c=",
+    "_location": "/express-unpkg",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "tag",
+      "registry": true,
+      "raw": "express-unpkg",
+      "name": "express-unpkg",
+      "escapedName": "express-unpkg",
+      "rawSpec": "",
+      "saveSpec": null,
+      "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+      "#USER",
+      "/"
+    ],
+    "_resolved": "http://r.npm.sankuai.com/express-unpkg/download/express-unpkg-2.0.1.tgz",
+    "_shasum": "85e6a0cfbfbecd946de1b0eba4180809df7c5f47",
+    "_spec": "express-unpkg",
+    "_where": "/Users/Lsong/Projects/express-unpkg-demo",
+    "author": {
+      "name": "Michael Jackson"
+    },
+    "bugs": {
+      "url": "https://github.com/unpkg/express-unpkg/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+      "csso": "^2.0.0",
+      "debug": "^2.2.0",
+      "etag": "^1.7.0",
+      "gunzip-maybe": "^1.2.1",
+      "isomorphic-fetch": "^2.2.1",
+      "lru-cache": "^4.0.1",
+      "mime": "^1.3.4",
+      "mkdirp": "^0.5.1",
+      "os-tmpdir": "^1.0.1",
+      "pretty-bytes": "^4.0.2",
+      "prop-types": "^15.5.8",
+      "react": "^15.5.4",
+      "react-dom": "^15.5.4",
+      "redis": "^2.6.2",
+      "semver": "^5.0.3",
+      "tar-fs": "^1.8.1"
+    },
+    "deprecated": false,
+    "description": "Express middleware that serves files from npm",
+    "devDependencies": {
+      "babel-cli": "^6.5.1",
+      "babel-core": "^6.5.2",
+      "babel-eslint": "^7.2.1",
+      "babel-preset-es2015": "^6.5.0",
+      "babel-preset-react": "^6.5.0",
+      "babel-preset-stage-1": "^6.5.0",
+      "eslint": "^3.4.0",
+      "eslint-plugin-import": "^1.7.0",
+      "eslint-plugin-react": "^6.0.0",
+      "in-publish": "^2.0.0",
+      "readline-sync": "^1.4.1"
+    },
+    "files": [
+      "FileUtils.js",
+      "IndexUtils.js",
+      "MetadataUtils.js",
+      "PackageUtils.js",
+      "RegistryCache.js",
+      "RegistryUtils.js",
+      "ResponseUtils.js",
+      "StyleUtils.js",
+      "components",
+      "index.js"
+    ],
+    "homepage": "https://github.com/unpkg/express-unpkg#readme",
+    "license": "MIT",
+    "name": "express-unpkg",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/unpkg/express-unpkg.git"
+    },
+    "scripts": {
+      "build": "node ./tools/build.js",
+      "clean": "git clean -fdX .",
+      "lint": "eslint modules",
+      "prepublish": "node ./tools/build.js",
+      "release": "node ./tools/release.js",
+      "test": "npm run lint"
+    },
+    "version": "2.0.1"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/lru-cache: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:852:19)
+      at ontimeout (timers.js:469:11)
+      at tryOnTimeout (timers.js:304:5)
+      at Timer.listOnTimeout (timers.js:264:5)
